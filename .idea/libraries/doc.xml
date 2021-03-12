@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="doc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/checkerv8/doc/member-search-index.zip!/" />
+      <root url="jar://$PROJECT_DIR$/checkerv8/doc/type-search-index.zip!/" />
+      <root url="jar://$PROJECT_DIR$/checkerv8/doc/package-search-index.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

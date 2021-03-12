@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=King
+comment0.text=\r\n\ Creates\ a\ dama\ of\ the\ type\ King.\r\n\ \r\n\ @author\ Alayon\ Molina\r\n\ @author\ Castro\ Ortega\r\n\ @version\ 1.0\r\n
+comment1.params=xPosition\ yPosition
+comment1.target=King(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ King\r\n
+comment2.params=
+comment2.target=void\ makeVisible()
+comment2.text=\r\n\ Make\ this\ king\ visible.\ If\ it\ was\ already\ visible,\ do\ nothing.\r\n
+comment3.params=
+comment3.target=void\ makeInvisible()
+comment3.text=\r\n\ Make\ this\ king\ invisible.\ If\ it\ was\ already\ invisible,\ do\ nothing.\r\n
+comment4.params=x\ y
+comment4.target=void\ changePosition(int,\ int)
+comment4.text=\r\n\ Changes\ the\ position\ of\ the\ King\r\n\ @param\ x\ position\ X\r\n\ @param\ y\ position\ Y\r\n
+numComments=5

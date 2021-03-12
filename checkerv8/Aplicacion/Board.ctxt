@@ -1,0 +1,99 @@
+#BlueJ class context
+comment0.target=Board
+comment0.text=\r\n\ Create\ a\ Board\ that\ can\ be\ manipulated\ and\ that\ draws\ itself\ on\ a\ canvas..\r\n\r\n\ @author\ Alay\u00F3n\ Molina\r\n\ @author\ Castro\ Ortega\r\n\ @version\ 1.0\ (05/02/2020)\r\n
+comment1.params=width\ moveX\ moveY
+comment1.target=Board(int,\ int,\ int)
+comment1.text=\r\n\ Create\ a\ Board\ with\ given\ parameters.\r\n\ @param\ width\ desired\ size\ for\ the\ Board.\ \r\n\ @param\ moveX\ Xposition\ of\ the\ Board.\r\n\ @param\ moveX\ Yposition\ of\ the\ Board.\r\n
+comment10.params=color\ row\ column\ conta
+comment10.target=void\ addTraidora(boolean,\ int,\ int,\ int)
+comment10.text=\r\n\ Creates\ a\ Traidora\ token\ to\ put\ on\ the\ board.\r\n\r\n\ @param\ color\ the\ color\ of\ the\ token,\ True\ \=\ white,\ False\ \=\ red.\r\n\ @param\ row\ row\ where\ the\ Traidora\ token\ will\ be\ put.\r\n\ @param\ column\ column\ where\ the\ Traidora\ token\ will\ be\ put.\r\n\ @param\ conta\ size\ of\ the\ board\r\n
+comment11.params=color\ row\ column\ conta
+comment11.target=void\ addLazy(boolean,\ int,\ int,\ int)
+comment11.text=\r\n\ Creates\ a\ Lazy\ token\ to\ put\ on\ the\ board.\r\n\r\n\ @param\ color\ the\ color\ of\ the\ token,\ True\ \=\ white,\ False\ \=\ red.\r\n\ @param\ row\ row\ where\ the\ Lazy\ token\ will\ be\ put.\r\n\ @param\ column\ column\ where\ the\ Lazy\ token\ will\ be\ put.\r\n\ @param\ conta\ size\ of\ the\ board\r\n
+comment12.params=color\ row\ column\ conta
+comment12.target=void\ addLibertarian(boolean,\ int,\ int,\ int)
+comment12.text=\r\n\ Creates\ a\ Libertarian\ token\ to\ put\ on\ the\ board.\r\n\r\n\ @param\ color\ the\ color\ of\ the\ token,\ True\ \=\ white,\ False\ \=\ red.\r\n\ @param\ row\ row\ where\ the\ Libertarian\ token\ will\ be\ put.\r\n\ @param\ column\ column\ where\ the\ Libertarian\ token\ will\ be\ put.\r\n\ @param\ conta\ size\ of\ the\ board\r\n
+comment13.params=name
+comment13.target=void\ save(java.lang.String)
+comment13.text=\r\n\ Saves\ the\ configuration\ board\ in\ a\ HashMap\r\n\ \r\n\ @param\ name\ the\ name\ of\ the\ key\ in\ HashMap\r\n
+comment14.params=checkerboard
+comment14.target=void\ read(java.lang.String)
+comment14.text=\r\n\ Reads\ a\ String\ and\ draws\ it\ on\ the\ configuration\ board.\r\n\ \r\n\ @param\ checkerboard\ a\ string\ with\ a\ saved\ board\r\n
+comment15.params=name
+comment15.target=java.lang.String\ recover(java.lang.String)
+comment15.text=\r\n\ Recovers\ a\ configuration\ board\ saved\ in\ a\ HashMap\r\n\ \r\n\ @param\ name\ the\ name\ of\ hey\ in\ HashMap\r\n\ @return\ c\ the\ string\ of\ a\ configuration\ board\r\n
+comment16.params=color\ fila\ columna\ conta\ ficha
+comment16.target=void\ addFicha(boolean,\ int,\ int,\ int,\ Dama)
+comment16.text=\r\n\ Adds\ a\ token\ on\ the\ board.\r\n\r\n\ @param\ color\ the\ color\ of\ the\ token,\ True\ \=\ white,\ False\ \=\ red.\r\n\ @param\ fila\ row\ where\ the\ token\ will\ be\ put.\r\n\ @param\ columna\ column\ where\ the\ token\ will\ be\ put.\r\n\ @param\ conta\ size\ of\ the\ board.\r\n\ @param\ circulo\ token.\r\n
+comment17.params=
+comment17.target=java.lang.String\ write()
+comment17.text=\r\n\ Saves\ the\ configuration\ board\ in\ a\ string\r\n\ \r\n\ @return\ ent\ the\ string\ of\ the\ configuration\ board\r\n
+comment18.params=row\ column
+comment18.target=void\ seleccionarFicha(int,\ int)
+comment18.text=\r\n\ Selects\ a\ token\ to\ move.\r\n\r\n\ @param\ row\ \ row\ in\ where\ is\ found\ the\ token\ to\ move.\r\n\ @param\ column\ column\ in\ where\ is\ found\ the\ token\ to\ move.\r\n
+comment19.params=row\ column
+comment19.target=void\ remover(int,\ int)
+comment19.text=\r\n\ Removes\ a\ token\r\n\ \r\n\ @param\ row\ row\ in\ where\ is\ found\ the\ token\ to\ remove.\r\n\ @param\ column\ column\ in\ where\ is\ found\ the\ token\ to\ remove.\r\n
+comment2.params=
+comment2.target=java.util.ArrayList\ getTablero()
+comment2.text=\r\n\ Return\ a\ ArrayLIst\ of\ the\ board\r\n
+comment20.params=row\ column
+comment20.target=void\ removerGame(int,\ int)
+comment20.text=\r\n\ Removes\ a\ token\ in\ game\ board.\r\n\ \r\n\ @param\ row\ row\ in\ where\ is\ found\ the\ token\ to\ remove.\r\n\ @param\ column\ column\ in\ where\ is\ found\ the\ token\ to\ remove.\r\n
+comment21.params=pieces
+comment21.target=void\ remover(int[][])
+comment21.text=\r\n\ Removes\ tokens\r\n\ \r\n\ @param\ pieces\ positions\ of\ the\ tokens\ to\ remove.\r\n
+comment22.params=
+comment22.target=void\ swap()
+comment22.text=\r\n\ Swaps\ the\ game\ board\ with\ the\ configuration\ board.\r\n
+comment23.params=
+comment23.target=int[][][]\ consultar()
+comment23.text=\r\n\ Consults\ the\ position\ of\ the\ tokens.\ \r\n\ @return\ \ the\ position\ of\ the\ tokens\ on\ a\ list.\r\n
+comment24.params=top\ right
+comment24.target=void\ shift(boolean,\ boolean)
+comment24.text=\r\n\ Moves\ a\ selected\ token\r\n\ \r\n\ @param\ top\ vertical\ control\ of\ the\ token.\ \r\n\ @param\ right\ horizontal\ control\ of\ the\ token.\r\n
+comment25.params=top\ right
+comment25.target=void\ jump(boolean,\ boolean)
+comment25.text=\r\n\ Jumps\ tokens\ with\ a\ selected\ token.\r\n\ \r\n\ @param\ top\ vertical\ control\ of\ the\ token.\r\n\ @param\ right\ horizontal\ control\ of\ the\ token.\r\n
+comment26.params=fila\ columna
+comment26.target=boolean\ getTabEstado(int,\ int)
+comment27.params=fila\ columna
+comment27.target=boolean\ getTabEstado2(int,\ int)
+comment28.params=
+comment28.target=java.lang.String\ getColorFicha()
+comment29.params=posicion
+comment29.target=void\ setDama(int)
+comment3.params=
+comment3.target=void\ makeVisible()
+comment3.text=\r\n\ Make\ this\ rectangle\ visible.\ If\ it\ was\ already\ visible,\ do\ nothing.\r\n
+comment30.params=calc
+comment30.target=int[][]\ calculatePos(int)
+comment30.text=\r\n\ Calculates\ the\ row\ and\ column\ from\ a\ single\ number\r\n\ @param\ calc\ A\ single\ number\r\n\ @return\ env\ A\ list\ with\ the\ row\ and\ column\r\n
+comment31.params=disp\ n1\ n2
+comment31.target=int\ calculatesPos2(java.util.ArrayList,\ int,\ int)
+comment31.text=\r\n\ Determinate\ the\ necesary\ token\ for\ a\ movement\r\n\ @param\ disp\ the\ positions\ that\ going\ be\ occupy\r\n\ @param\ n1\ position\ 1\ of\ the\ movement\r\n\ @paran\ n2\ position\ 2\ of\ the\ movement\r\n\ @return\ num\ the\ position\ of\ the\ necesary\ token\ for\ a\ movement\r\n
+comment32.params=n
+comment32.target=boolean[]\ calculateShift2(java.util.ArrayList)
+comment32.text=\r\n\ Determinate\ wich\ is\ the\ next\ movement\ for\ shift\r\n\ @param\ n\ is\ a\ ArrayList\ of\ integer\r\n\ @return\ valorShift\ that\ is\ a\ list\ of\ the\ boolean\r\n
+comment33.params=n
+comment33.target=boolean[]\ calculateJump2(java.util.ArrayList)
+comment33.text=\r\n\ Determinate\ wich\ is\ the\ next\ movement\ for\ jump\r\n\ @param\ n\ is\ a\ ArrayList\ of\ integer\r\n\ @return\ valorJump\ that\ is\ a\ list\ of\ the\ boolean\r\n
+comment4.params=
+comment4.target=void\ makeInvisible()
+comment4.text=\r\n\ Make\ this\ rectangle\ invisible.\ If\ it\ was\ already\ invisible,\ do\ nothing.\r\n
+comment5.params=color\ men\ conta
+comment5.target=void\ adicionar(boolean,\ int[][],\ int)
+comment5.text=\r\n\ Creates\ tokens\ to\ put\ on\ the\ board\r\n\ @param\ color\ the\ color\ of\ the\ tokens,\ True\ \=\ white,\ False\ \=\ red.\r\n\ @param\ men\ the\ positions\ of\ the\ tokens\ in\ the\ board,\ initialized\ in\ 1\ (row,\ column).\r\n\ @param\ conta\ size\ of\ the\ board.\r\n
+comment6.params=color\ row\ column\ conta
+comment6.target=void\ addKing(boolean,\ int,\ int,\ int)
+comment6.text=\r\n\ Creates\ a\ king\ token\ to\ put\ on\ the\ board.\r\n\r\n\ @param\ color\ the\ color\ of\ the\ token,\ True\ \=\ white,\ False\ \=\ red.\r\n\ @param\ row\ row\ where\ the\ king\ token\ will\ be\ put.\r\n\ @param\ column\ column\ where\ the\ king\ token\ will\ be\ put.\r\n\ @param\ conta\ size\ of\ the\ board\r\n
+comment7.params=color\ row\ column\ conta
+comment7.target=void\ addProletario(boolean,\ int,\ int,\ int)
+comment7.text=\r\n\ Creates\ a\ king\ token\ to\ put\ on\ the\ board.\r\n\r\n\ @param\ color\ the\ color\ of\ the\ token,\ True\ \=\ white,\ False\ \=\ red.\r\n\ @param\ row\ row\ where\ the\ king\ token\ will\ be\ put.\r\n\ @param\ column\ column\ where\ the\ king\ token\ will\ be\ put.\r\n\ @param\ conta\ size\ of\ the\ board\r\n
+comment8.params=color\ row\ column\ conta
+comment8.target=void\ addHurried(boolean,\ int,\ int,\ int)
+comment8.text=\r\n\ Creates\ a\ king\ token\ to\ put\ on\ the\ board.\r\n\r\n\ @param\ color\ the\ color\ of\ the\ token,\ True\ \=\ white,\ False\ \=\ red.\r\n\ @param\ row\ row\ where\ the\ king\ token\ will\ be\ put.\r\n\ @param\ column\ column\ where\ the\ king\ token\ will\ be\ put.\r\n\ @param\ conta\ size\ of\ the\ board\r\n
+comment9.params=color\ row\ column\ conta
+comment9.target=void\ addPowerful(boolean,\ int,\ int,\ int)
+comment9.text=\r\n\ Creates\ a\ Powerful\ token\ to\ put\ on\ the\ board.\r\n\r\n\ @param\ color\ the\ color\ of\ the\ token,\ True\ \=\ white,\ False\ \=\ red.\r\n\ @param\ row\ row\ where\ the\ Powerful\ token\ will\ be\ put.\r\n\ @param\ column\ column\ where\ the\ Powerful\ token\ will\ be\ put.\r\n\ @param\ conta\ size\ of\ the\ board\r\n
+numComments=34

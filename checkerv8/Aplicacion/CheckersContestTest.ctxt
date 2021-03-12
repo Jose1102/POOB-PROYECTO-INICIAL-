@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=CheckersContestTest
+comment0.text=\r\n\ The\ test\ class\ CheckersContestTest.\r\n\r\n\ @author\ Alayon\ Molina\r\n\ @author\ Castro\ Ortega\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=void\ deberiaPrimerTableroSerCorrecto()
+comment2.params=
+comment2.target=void\ deberiaSegundoTableroSerCorrecto()
+numComments=3

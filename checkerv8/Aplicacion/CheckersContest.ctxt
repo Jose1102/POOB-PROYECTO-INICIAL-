@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=CheckersContest
+comment0.text=\r\n\ Simulates\ and\ solves\ problem\ c\ Checks\ Post\ Facto\r\n\r\n\ @author\ Alay\u00F3n\ Molina\r\n\ @author\ Castro\ Ortega\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=CheckersContest()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ CheckersContest\r\n
+comment2.params=player\ moves
+comment2.target=java.lang.String[]\ solve(char,\ java.lang.String[])
+comment2.text=\r\n\ Solves\ the\ problem\ with\ input\r\n\ @param\ player\ which\ player\ makes\ the\ first\ move\ \r\n\ @param\ moves\ list\ of\ the\ moves\ \r\n\ @return\ solution\ the\ result\ of\ execution\r\n
+comment3.params=player\ moves\ slow
+comment3.target=void\ simulate(char,\ java.lang.String[],\ boolean)
+numComments=4
